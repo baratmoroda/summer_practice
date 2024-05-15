@@ -1,0 +1,55 @@
+body {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #313338;
+}
+
+.maincontent {
+    padding: 30px;
+}
+
+
+/*Верх таблицы*/
+header {
+    background-color: #D1BD9F; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header a {
+    display: inline-block;
+    padding: 20px 30px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+
+h2 {
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #595959;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #313338;
+}
+
+tr:nth-child(even) {
+    background-color: #313338;
+}
+
+tr:hover {
+    background-color: #595959;
+}
